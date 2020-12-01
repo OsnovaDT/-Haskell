@@ -16,3 +16,17 @@ list with elements from n1 to n2 - [n1 .. n2]
 
 -- , "F3", "I3", "I4", "I5", "B9", "C9", "D9", "B7", "C7", "E5", "F5", "I8", "I9", "B5", "G8", "G10", "H1"
 -- print (func a)
+
+print new_coordinates
+      print right_coordinate
+      print left_coordinate
+      print top_coordinate
+      print bottom_coordinate
+
+ if (length user_coordinate == 3) && (user_coordinate !! 1 == '1') && (user_coordinate !! 2 == '0')
+    then do
+      let user_coordinate = charToString (head user_coordinate) ++ "0"
+      print ""
+    else do
+      let user_coordinate = user_coordinate
+      print ""
